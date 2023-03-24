@@ -1,0 +1,21 @@
+body {
+    max-width: 800px;
+    margin: 7vh auto;
+}  
+p {
+    text-indent: 2em;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 130%;
+}
+
+.epigraph {
+    font-size: 70%;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    body {
+        max-width: 90%;
+    }
+}
